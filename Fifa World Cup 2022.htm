@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+    <html style="background-color: gray;">
+        <head lang="en-US">
+            <title>FIFA World Cup 2022</title>
+            <meta charset="UTF-8">
+            <link rel="icon" type="image/x-icon" href="https://digitalhub.fifa.com/transform/5c8cef88-ad95-4e69-84f5-afeae91f5595/Brand_Protection_FIFA-World-Cup-Official-Trophy-P4">
+        </head>
+
+        <style>
+
+            .header {
+                top: 0px;
+                position: sticky;
+                position: -webkit-sticky;
+                z-index: 2;
+            }
+
+            header h1{
+                background-color: black;
+                color: white;
+                text-align: left;
+                padding: 20px;
+                margin: 10px 0px;
+                border: solid 5px white ;
+                border-radius: 50px;
+                }
+
+            .navbar{
+                position: sticky;
+                top: 100px;
+                z-index: 2;
+            }
+
+            ul {
+                list-style: none;
+            }
+
+            li {
+                float: left;
+                width: 24.5%;
+                border: solid white;
+                border-collapse: collapse;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                background-color: black;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                transition: 1s ease-in-out;
+            }
+
+            li a:hover {
+                background-color: white;
+                color: black;
+            }
+
+            .container{
+                position: fixed;
+                top: 180px;
+                bottom: 0;
+                width: 100%;
+                overflow: scroll;
+            }
+
+            .intro {
+                font-family: cursive;
+                color: white;
+                position: relative;
+                z-index: -1;
+                margin: 100px 0px;
+                padding: 20px;
+                border: solid 6px white;
+                border-radius: 15px;
+                background-color: black;
+                z-index: 1;
+            }
+
+            table, td, th{
+                color: white;
+                width: 100%;
+                border: solid 5px white;
+                background-color: black;
+                padding: 25px;
+                text-align: center;
+            }
+
+            tr, td, th{
+                width: 33.33%;
+                transition:1s ease-in-out;
+            }
+
+            td:hover, th:hover{
+                background-color: white;
+                color: black;
+                border: black;
+            }
+
+            td{
+                height:300px;
+            }
+
+            .container2 {
+                position: relative;
+            }
+
+            .center {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                font-size: 18px;
+            }
+
+            td img{
+                width: 90%;
+                height: auto;
+                transition: width 2s, transform 2s linear 2s;
+            }
+
+            td:hover img{
+                transform: rotateY(180deg);
+                width: 100%;
+                -webkit-box-reflect: below 10px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+            }
+
+            div[class="center"]{
+                visibility: hidden;
+                transition: 2s 3s;
+                padding: 20px;
+                border: solid white;
+                border-radius: 5px;
+                color: white;
+                background-color: black;
+                box-shadow: 10px 10px 5px lightblue;
+            }
+
+            td:hover div[class="center"]{
+                visibility: visible;
+            }
+
+        </style>    
+
+        <header class="header">
+            <h1> <img src="https://digitalhub.fifa.com/transform/5c8cef88-ad95-4e69-84f5-afeae91f5595/Brand_Protection_FIFA-World-Cup-Official-Trophy-P4" width=40px height=40px  style="float:right;"> FIFA World Cup 2022 </h1>
+        </header>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#Roster">Roster</a></li>
+                <li><a href="#Table">Table</a></li>
+                <li><a href="#References">References</a></li>
+            </ul>
+        </nav>
+
+        <div id="container">
+            <section class="intro">
+                <h1 id="Home">The Host Country: Qatar <img width=200px style="float:right"  height=100px src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/250px-Flag_of_Qatar.svg.png" alt="Flag" width="80px" height="30px"></h1>
+                <p>Qatar, officially the State of Qatar, is a country in Western Asia. It occupies the Qatar Peninsula on the 
+                northeastern coast of the Arabian Peninsula in the Middle East; it shares its sole land border with Saudi Arabia
+                to the south, with the rest of its territory surrounded by the Persian Gulf. The Gulf of Bahrain, an inlet of 
+                the Persian Gulf, separates Qatar from nearby Bahrain. The capital is Doha, home to over 80% of the country's 
+                inhabitants, and the land area is mostly made up of flat, low-lying desert.<a href="#1"><sup>[1]</sup></a></p>
+            </section>
+        </div>
+        
+        <section>
+            <table id="Roster";>
+                <caption>Groups</caption>
+
+                    <tr>
+                        <th>*</th>
+                        <th>Teams</th>
+                        <th>Status</th>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group A</th>
+                        <td><div class="container2">
+                                <a href="https://en.wikipedia.org/wiki/Netherlands_national_football_team" target="_blank">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/250px-Flag_of_the_Netherlands.svg.png" title="Netherlands" alt="Netherlands">
+                                    <div class="center">Netherlands</div>
+                                </a>
+                           </div>
+                        </td>
+                        <td>Knocked out in the QuaterFinals</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Senegal_national_football_team" target="_blank">
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/250px-Flag_of_Senegal.svg.png" title="Senegal" alt="Senegal">
+                                <div class="center">Senegal</div></a>
+                       </div>
+                        </td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Ecuador_national_football_team" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/250px-Flag_of_Ecuador.svg.png" title="Ecuador" alt="Ecuador">
+                            <div class="center">Ecuador</div></a>
+                        </div>
+                        </td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Qatar_national_football_team" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/250px-Flag_of_Qatar.svg.png" title="Qatar" alt="Qatar">
+                            <div class="center">Qatar</div></a>
+                        </div>
+                        </td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group B</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/England_national_football_team" target="_blank">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/250px-Flag_of_England.svg.png" title="England" alt="England">
+                            <div class="center">England</div></a>
+                        </div>
+                        </td>
+                        <td>Knocked out in the SemiFinals</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/United_States_men%27s_national_soccer_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/250px-Flag_of_the_United_States.svg.png" title="USA" alt="USA">
+                            <div class="center">USA</div></a>
+                        </div></td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Iran_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/250px-Flag_of_Iran.svg.png" title="Iran" alt="Iran">
+                            <div class="center">Iran</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Wales_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Flag_of_Wales.svg/250px-Flag_of_Wales.svg.png" title="Wales" alt="Wales">
+                            <div class="center">Wales</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group C</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Argentina_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/250px-Flag_of_Argentina.svg.png" title="Argentina" alt="Argentina">
+                            <div class="center">Argentina</div></a>
+                        </div></td>
+                        <td>Winners</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Poland_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/250px-Flag_of_Poland.svg.png" title="Poland" alt="Poland">
+                            <div class="center">Poland</div></a>
+                        </div></td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Mexico_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/250px-Flag_of_Mexico.svg.png" title="Mexico" alt="Mexico">
+                            <div class="center">Mexico</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Saudi_Arabia_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/250px-Flag_of_Saudi_Arabia.svg.png" title="Saudi Arabia" alt="Saudi Arabia">
+                            <div class="center">Saudi Arabia</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group D</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/France_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/250px-Flag_of_France.svg.png" title="France" alt="France">
+                            <div class="center">France</div></a>
+                        </div></td>
+                        <td>1st Runner Up</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Australia_men%27s_national_soccer_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/250px-Flag_of_Australia_%28converted%29.svg.png" title="Australia" alt="Australia">
+                            <div class="center">Australia</div></a>
+                        </div></td>
+                        </a></td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Tunisia_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/250px-Flag_of_Tunisia.svg.png" title="Tunisia" alt="Tunisia">
+                            <div class="center">Tunisia</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Denmark_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/250px-Flag_of_Denmark.svg.png" title="Denmark" alt="Denmark">
+                            <div class="center">Denmark</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group E</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Japan_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/250px-Flag_of_Japan.svg.png" title="Japan" alt="Japan">
+                            <div class="center">Japan</div></a>
+                        </div></td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Spain_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/250px-Bandera_de_Espa%C3%B1a.svg.png" title="Spain" alt="Spain">
+                            <div class="center">Spain</div></a>
+                        </div></td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Germany_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/250px-Flag_of_Germany.svg.png" title="Germany" alt="Germany">                            
+                            <div class="center">Germany</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Costa_Rica_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/250px-Flag_of_Costa_Rica.svg.png" title="Costa Rica" alt="Costa Rica">                            
+                            <div class="center">Costa Rica</div></a>
+                        </div></td>                        
+                        <td>Knocked out in Group Play Stage</td>
+                    <tr>
+                        <th rowspan="4">Group F</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Morocco_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/250px-Flag_of_Morocco.svg.png" title="Morocco" alt="Morocco">                            
+                            <div class="center">Morocco</div></a>
+                        </div></td>        
+                        <td>Knocked out in SemiFinals</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Croatia_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/250px-Flag_of_Croatia.svg.png" title="Croatia" alt="Croatia">
+                            <div class="center">Morocco</div></a>
+                        </div></td> 
+                        <td>2nd Runner Up</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Belgium_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/250px-Flag_of_Belgium.svg.png" title="Belgium" alt="Belgium">
+                            <div class="center">Belgium</div></a>
+                        </div></td> 
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Canada_men%27s_national_soccer_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/250px-Flag_of_Canada_%28Pantone%29.svg.png" title="Canada" alt="Canada">
+                            <div class="center">Canada</div></a>
+                        </div></td> 
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group G</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Brazil_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/250px-Flag_of_Brazil.svg.png" title="Brazil" alt="Brazil">
+                            <div class="center">Brazil</div></a>
+                        </div></td> 
+                        <td>Knocked out in QuarterFinals</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Switzerland_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/250px-Flag_of_Switzerland_%28Pantone%29.svg.png" title="Switzerland" alt="Switzerland">
+                            <div class="center">Switzerland</div></a>
+                        </div></td> 
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Cameroon_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Flag_of_Cameroon.svg/250px-Flag_of_Cameroon.svg.png" title="Cameroon" alt="Cameroon">
+                            <div class="center">Cameroon</div></a>
+                        </div></td> 
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Serbia_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/250px-Flag_of_Serbia.svg.png" title="Serbia" alt="Serbia">
+                            <div class="center">Serbia</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+
+                    <tr>
+                        <th rowspan="4">Group H</th>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Portugal_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/250px-Flag_of_Portugal.svg.png" title="Portugal" alt="Portugal">
+                            <div class="center">Potugal</div></a>
+                        </div></td>
+                        <td>Knocked out in QuarterFinals</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/South_Korea_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/250px-Flag_of_South_Korea.svg.png" title="South Korea" alt="South Korea">
+                            <div class="center">South Korea</div></a>
+                        </div></td>
+                        <td>Knocked out in R16</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Uruguay_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/250px-Flag_of_Uruguay.svg.png" title="Uruguay" alt="Uruguay">
+                            <div class="center">Uruguay</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+                    <tr>
+                        <td><div class="container2">
+                            <a href="https://en.wikipedia.org/wiki/Ghana_national_football_team" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Ghana.svg/250px-Flag_of_Ghana.svg.png" title="ghana" alt="Ghana">
+                            <div class="center">Ghana</div></a>
+                        </div></td>
+                        <td>Knocked out in Group Play Stage</td>
+                    </tr>
+            </table>
+        </section>
+
+        <section>
+            <h1 id="References">References</h1>
+            <p id="1">[1]<a href="https://en.wikipedia.org/wiki/Qatar" target="_blank">https://en.wikipedia.org/wiki/Qatar</a></p>
+        </section>
+    </html>
