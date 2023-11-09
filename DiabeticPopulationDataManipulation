@@ -1,0 +1,377 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <stdlib.h>
+
+//************************************************************************************************************************
+ void province_average(double averages[5], int rows, char location[rows][128], char percentage[rows][128]) {
+  int count[4] = {0,0,0,0};
+  char provinces[5][128] = {
+    "Alberta",
+    "British Columbia",
+    "Ontario",
+    "Quebec"
+  };
+  for (int i = 0; i < rows; i++) {
+    for (int p = 0; p <= 3; p++) {
+      if (!strcmp(location[i], provinces[p])) {
+        averages[p] += atof(percentage[i]);
+        if (strcmp(percentage[i],"\0")){
+          count[p]++;
+        }
+      }
+    }
+  }
+  for (int i = 0; i <= 3; i++) {
+    averages[i]=averages[i]/(float)count[i];
+  }
+  printf("\n\n\t\tProvincial Averages");
+  printf("\n-------------------------------------------------------------");
+  printf("\n%20s \t|\t %6s", "Provinces", "Averages");
+  printf("\n-------------------------------------------------------------");
+  printf("\n%20s \t|\t %.3lf", "Alberta", averages[0]);
+  printf("\n%20s \t|\t %.3lf", "British Columbia", averages[1]);
+  printf("\n%20s \t|\t %.3lf", "Ontario", averages[2]);
+  printf("\n%20s \t|\t %.3lf", "Quebec", averages[3]);
+  printf("\n-------------------------------------------------------------"); 
+}
+
+void national_average(double averages[5], int rows, char location[rows][128], char percentage[rows][128]) {
+  int count = 0;
+  for (int i = 0; i <= rows; i++) {
+    if (!strcmp(location[i], "Canada (excluding territories)")) {
+      averages[4] += atof(percentage[i]);
+      if (strcmp(percentage[i],"\0")){
+        count++;
+      }
+    }
+  }
+  averages[4]= averages[4] / (float) count;
+  printf("\n%20s \t|\t %.3lf", "National Average", averages[4]);
+  printf("\n-------------------------------------------------------------"); 
+}
+
+void date_average(int rows, char location[rows][128], char percentage[rows][128], char date[rows][128]) {
+  char provinces[5][128]={"Alberta","British Columbia","Ontario","Quebec","Canada (excluding territories)"};
+  int count[5][7];
+  float data[5][2][7]={};
+  for(int i=0;i<=6;i++){
+    for(int j=0;j<=4;j++){
+      count[j][i]=0;
+    }
+  }
+  for(int i=0;i<=4;i++){
+    for(int j=0;j<=6;j++){
+      data[i][0][j]=2015+j;
+      data[i][1][j]=0;
+    }
+  }
+  for (int i=0; i<=rows; i++){
+    for(int p=0;p<=4;p++){
+    if (!strcmp(location[i],provinces[p])){
+        for(int k=0;k<=6;k++){
+          if(atof(date[i])==data[p][0][k]){
+            data[p][1][k]+=atof(percentage[i]);
+            if (strcmp(percentage[i],"\0")){
+              count[p][k]++;
+            }
+        }
+        }
+    }  
+    }
+  }
+  for(int i=0;i<=4;i++){
+    for(int j=0;j<=6;j++){
+      data[i][1][j]=data[i][1][j]/(float)count[i][j];
+    }
+  }
+  for(int i =0;i<=4;i++){
+    printf("\n\n Percentage of Popultion with diabetes in %s over", provinces[i]);
+    printf("\n-------------------------------------------------------------");
+    printf("\n  2015   |   2016   |   2017   |   2018   |   2019   |   2020   |   2021   |\n");
+    for(int j=0;j<=6;j++){
+      printf("%6.2f %% | ",data[i][1][j]);
+    }
+    printf("\n");
+  }
+
+  //Q5 Data import for gnuplot - Jacky Zhang
+
+  int year = 2015;
+  FILE * out;
+  out=fopen("Question5Data.csv","w");
+    for (int j = 0; j < 7; j++){
+      fprintf(out,"%d, %f, %f, %f, %f, %f \n", year, data[0][1][j],data[1][1][j],data[2][1][j],data[3][1][j],data[4][1][j]);
+      year++;
+    }
+    fprintf(out,"\n");
+  
+  fclose(out);
+
+}
+
+void age_average(int rows, char location[rows][128], char percentage[rows][128], char age[rows][128]){
+ char ages[3][128]={"35 to 49 years","50 to 64 years","65 years and over"};
+ char provinces[5][128]={"Alberta","British Columbia","Ontario","Quebec","Canada (excluding territories)"};
+ int count[5][3];
+ float data[5][1][3];
+
+ for(int i=0;i<=4;i++){
+  for(int j=0;j<=2;j++){
+    count[i][j]=0;
+    }
+  }
+  for(int i=0;i<=4;i++){
+    for(int j=0;j<=2;j++){
+      data[i][0][j]=0;
+    }
+  }
+  for (int i=0; i<=rows; i++){
+    for(int p=0;p<=4;p++){
+    if (!strcmp(location[i],provinces[p])){
+          if(!strcmp(age[i],ages[0])){
+            data[p][0][0]+=atof(percentage[i]);
+            if(strcmp(percentage[i],"\0")){
+              count[p][0]++;
+            }
+        }
+        else if(!strcmp(age[i],ages[1])){
+            data[p][0][1]+=atof(percentage[i]);
+            if (strcmp(percentage[i],"\0")){
+              count[p][1]++;
+            }
+        }
+        else if(!strcmp(age[i],ages[2])){
+            data[p][0][2]+=atof(percentage[i]);
+            if (strcmp(percentage[i],"\0")){
+              count[p][2]++;
+            }
+        }
+    }  
+    }
+  }
+  for(int i=0;i<=4;i++){
+    for(int j=0;j<=2;j++){
+      data[i][0][j]=data[i][0][j]/(float)count[i][j];
+    }
+  }
+  for(int i =0;i<=4;i++){
+    printf("\n\n Percentage of Popultion with diabetes in %s over", provinces[i]);
+    printf("\n-------------------------------------------------------------");
+    printf("\n%22s|%22s|%22s|\n", "35 to 49 Years of age", "50 to 64 Years of age","65 & over Years of age");
+    for(int j=0;j<=2;j++){
+      printf("%20.3f %%|", data[i][0][j]);
+    }
+    printf("\n");
+  }
+
+   //Q6 Data import for gnuplot - Jacky Zhang
+  
+  FILE * out;
+  out=fopen("Question6Data.csv","w");
+  for (int i = 0; i < 3; i++){
+    fprintf(out,"%s, %f \n", ages[i] , data[4][0][i]);
+  }
+  
+  fclose(out);
+  
+}
+
+//************************************************************************************************************************
+ void extremes_calculator(double averages[5], double extremes[2], char extreme_provinces[2][20]){
+
+  extremes[0]=averages[0];    //lowest average
+  extremes[1]=averages[0];    //highest average
+
+  int flag1=0;
+  int flag2=0;
+
+  for (int i=1; i<4; i++){
+    if (averages[i]<extremes[0]){
+      extremes[0]=averages[i];
+      flag1=i;
+    }
+    if (averages[i]>extremes[1]){
+      extremes[1]=averages[i];
+      flag2=i;
+    }
+  }
+  if (flag1==0){
+    strcpy(extreme_provinces[0],"Alberta");
+  }
+  else if (flag1==1){
+    strcpy(extreme_provinces[0],"British Columbia");
+  }
+  else if (flag1==2){
+    strcpy(extreme_provinces[0],"Ontario");
+  }
+  else if (flag1==3){
+    strcpy(extreme_provinces[0],"Quebec");
+  }
+
+  if (flag2==0){
+    strcpy(extreme_provinces[1],"Alberta");
+  }
+  else if (flag2==1){
+    strcpy(extreme_provinces[1],"British Columbia");
+  }
+  else if (flag2==2){
+    strcpy(extreme_provinces[1],"Ontario");
+  }
+  else if (flag2==3){
+    strcpy(extreme_provinces[1],"Quebec");
+  }
+}
+
+//************************************************************************************************************************
+void diabetes_status_determiner(double averages[5], int Diabetes_Status[4]){    //accepts an array averages with the                                 
+            //provincial averages and the national average and an empty array which stores the status 0 for False and 1 for True
+
+  for (int i=0; i<4; i++){
+    if (averages[i]>=averages[4]){
+      Diabetes_Status[i]=1;
+    }
+    else{
+      Diabetes_Status[i]=0;
+    }
+  }
+}
+
+
+void clean(char s[]) {
+  if (strlen(s)<=2) {
+    s[0] = '\0';
+  } 
+  else {
+    for (int i = 0; i <= strlen(s); i++) {
+      if (s)
+        if (s[i] == '"') {
+          for (int j = i; j <= strlen(s); j++)
+            s[j] = s[j + 1];
+        }
+    }
+  }
+
+}
+
+//************************************************************************************************************************
+void sorter(int rows, char date[rows][128], char location[rows][128], char percentage[rows][128], int index[2][40]) {
+  double lowest=atof(percentage[0]);
+  double highest=atof(percentage[0]);
+  int count_low=0;
+  int count_high=0;
+
+  for (int i=0; i<rows; i++){
+    if (strcmp(percentage[i],"\0")){
+      if (atof(percentage[i])>highest){
+        highest=atof(percentage[i]);
+        index[1][count_high]=i;
+        count_high++;
+      }
+      if (atof(percentage[i])<lowest){
+        lowest=atof(percentage[i]);
+        index[0][count_low]=i;
+        count_low++;
+      }
+    }
+  }
+    printf("\n\n\t\tHighest Percentage of diabetic population");
+    printf("\n-------------------------------------------------------------");
+    printf("\n%20s|%5s|%s", "Province", "Year", "Percentage of Population");
+    for (int i=0; i<count_high; i++){
+      if (highest==atof(percentage[index[1][i]])){
+        printf("\n%20s|%5.4s|%.3lf %%", location[index[1][i]], date[index[1][i]]+1, atof(percentage[index[1][i]]));
+      }
+    }
+    printf("\n\n\t\tLowest Percentage of diabetic population");
+    printf("\n-------------------------------------------------------------");
+    printf("\n%20s|%5s|%s", "Province", "Year", "Percentage of Population");
+    for (int i=0; i<count_low; i++){
+      if (lowest==atof(percentage[index[0][i]])){
+        printf("\n%20s|%5.4s|%.3lf %%", location[index[0][i]], date[index[0][i]]+1, atof(percentage[index[0][i]]));
+      }
+    }
+} 
+
+
+int main(void) {
+  char provinces[4][20]={"Alberta", "British Columbia", "Ontario", "Quebec"};
+  FILE * in;
+  in = fopen("statscan_diabetes.csv", "r");
+  int rows = 0;
+  while (!feof(in)) {
+    char ch = fgetc(in);
+    if (ch == '\n') {
+      rows++;
+    }
+  }
+  char date[rows][128];
+  char location[rows][128];
+  char age[rows][128];
+  char sex[rows][128];
+  char percentage[rows][128];
+  fseek(in, 0, SEEK_SET);
+
+  while (fgetc(in) != '\n') {}
+  double averages[5]={0,0,0,0,0};
+  double extremes[2];
+  int diabetes_status[4];
+  char extreme_provinces[2][20];
+  int index[2][40];
+
+  for (int i = 0; i < rows; i++) {
+    strcpy(percentage[i],"\0");
+    fscanf(in, "%[^,],%[^,],%*[^,],%[^,],%[^,],%*[^,],%*[^,],%*[^,],%*[^,],%*[^,],%*[^,],%*[^,],%*[^,],%[^,],%*[^\n]", date[i], location[i], age[i], sex[i], percentage[i]);
+    clean(date[i]);
+    clean(location[i]);
+    clean(age[i]);
+    clean(sex[i]);
+    clean(percentage[i]);
+    //printf("%-s\t%-30s\t\t%-20s\t%s\t\t%s", date[i], location[i], age[i], sex[i], percentage[i]);
+  }
+
+  //************************************************************************************************************************
+  //Outputs
+
+  printf("\n*******************************************************************************************************************");
+  printf("\n\n\t\t\tCPS Term Project");  
+  printf("\n\t\t------------------------------");
+  
+  
+  province_average(averages, rows, location, percentage);
+
+  national_average(averages,rows,location,percentage);
+
+  date_average(rows, location, percentage, date);
+
+  age_average(rows, location, percentage, age);
+
+  extremes_calculator(averages, extremes, extreme_provinces);
+
+  printf("\n\n\t Lowest Percentage of Popultion with diabetes");
+  printf("\n-------------------------------------------------------------");
+  printf("\n\t%20s\t| Percentage of Population with diabetes","Province");
+  printf("\n\t%20s\t|%9.3lf %%", extreme_provinces[0], extremes[0]);
+
+  printf("\n\n\t Highest Percentage of Popultion with diabetes");
+  printf("\n-------------------------------------------------------------");
+  printf("\n\t%20s\t| Percentage of Population with diabetes","Province");
+  printf("\n\t%20s\t|%9.3lf %%", extreme_provinces[1], extremes[1]);
+
+  diabetes_status_determiner(averages, diabetes_status);
+
+  printf("\n\n\t Is the average percentage of diabetic population in these provinces above the national average?");
+  printf("\n%20s| Status", "Provinces");
+
+  for (int i=0; i<4; i++){
+    printf("\n%20s|", provinces[i]);
+    if (diabetes_status[i]){
+      printf("\tYes");
+    }
+    else{
+      printf("\tNo");
+    }
+  }
+
+  sorter(rows, date, location, percentage, index );
+}
