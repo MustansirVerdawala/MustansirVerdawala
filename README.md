@@ -3,10 +3,10 @@
 
 ## Projects:
 
--[C](https://github.com/MustansirVerdawala/C)
+-<b>[C](https://github.com/MustansirVerdawala/C)<\b>
 
--[HTML and CSS](https://github.com/MustansirVerdawala/FrontEnd)
+-<b>[HTML and CSS](https://github.com/MustansirVerdawala/FrontEnd)<\b>
 
--[Java](https://github.com/MustansirVerdawala/Java)
+-<b>[Java](https://github.com/MustansirVerdawala/Java)<\b>
 
--[Python](https://github.com/MustansirVerdawala/Python)
+-<b>[Python](https://github.com/MustansirVerdawala/Python)<\b>
