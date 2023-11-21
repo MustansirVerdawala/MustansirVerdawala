@@ -17,5 +17,5 @@
 - <b>[Java](https://github.com/MustansirVerdawala/Java)</b>
   
 - <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
- -[Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver.py)
-   -Algorithm to solve any scrambled configuration of a rubiks cube.
+ - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver.py)
+   - Algorithm to solve any scrambled configuration of a rubiks cube.
