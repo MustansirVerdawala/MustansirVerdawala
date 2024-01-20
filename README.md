@@ -4,7 +4,7 @@
  ## Projects:
 
 - <b>[C](https://github.com/MustansirVerdawala/C)</b>
-  - [DiabeticPopulationDataManipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation.txt)
+  - [Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation.txt)
     - The C program processes diabetes statistics from a CSV file, calculating and presenting averages, extremes, and status comparisons for provinces and national data. It also generates CSV files for date and age-wise data visualization.
 
 - <b>[HTML and CSS](https://github.com/MustansirVerdawala/FrontEnd)</b>
