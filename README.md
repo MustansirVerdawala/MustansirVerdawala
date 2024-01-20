@@ -19,8 +19,8 @@
     - The code involves Java classes for bank accounts and a bank. The Account class requires implementing methods for deposit and withdrawal, while the Bank class manages multiple accounts, ensuring unique account numbers.
   - [BlackJack Game](https://github.com/MustansirVerdawala/Java/tree/main/BlackJack%20Game)
     - The code implements a Java Blackjack game with card and UI classes, utilizing ArrayLists.
-  - [Circuit Builder](https://github.com/MustansirVerdawala/Java/tree/main/Circuit%20Builder)
-    - Reads command lines from user and accordingly performs the necessary operations.
+  - [Virtual Circuit Builder](https://github.com/MustansirVerdawala/Java/tree/main/Circuit%20Builder)
+    - Reads command lines from user and accordingly performs the necessary operations to build a virtual circuit.
     
 - <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
   - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver.py)
