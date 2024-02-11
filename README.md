@@ -22,7 +22,9 @@
   - [Virtual Circuit Builder](https://github.com/MustansirVerdawala/Java/tree/main/Circuit%20Builder)
     - Reads command lines from user and accordingly performs the necessary operations to build a virtual circuit.
   - [Flight Booking Manager](https://github.com/MustansirVerdawala/Java/tree/main/FlightBooking)
-    - Provides an interface to allow users to manage a Flight bookings
+    - Provides an interface to allow users to manage a Flight bookings.
+  - [Odometer](https://github.com/MustansirVerdawala/Java/tree/main/Odometer)
+    - Creates a decimal digit counter simulating an Odometer.
     
 - <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
   - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver.py)
