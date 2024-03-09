@@ -4,8 +4,12 @@
  ## Projects:
 
 - <b>[C](https://github.com/MustansirVerdawala/C)</b>
-  - [Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation.txt)
+  - [Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation/)
     - The C program processes diabetes statistics from a CSV file, calculating and presenting averages, extremes, and status comparisons for provinces and national data. It also generates CSV files for date and age-wise data visualization.
+  - [State Machine](https://github.com/MustansirVerdawala/C/blob/main/StateMachine/)
+    - This C program simulates a state machine with dynamic state management and garbage collection capabilities. Users can define state transitions, modify state configurations, and perform garbage collection to clean up unused states. The simulator provides a command-line interface for interaction and supports features like state transition verification, garbage collection, and state deletion. Additionally, it offers functionalities to view state transitions, perform data manipulation, and exit the program gracefully.
+  - [Towers of Hanoi](https://github.com/MustansirVerdawala/C/blob/main/TowersOfHanoi/)
+    - This C program provides a solution to the Tower of Hanoi problem, employing recursive techniques for efficient disk movement between pegs. Users can specify the number of disks and the source and destination pegs through command-line arguments. The program performs basic input validation to ensure the correctness of input parameters. It outputs the sequence of moves required to solve the Tower of Hanoi problem, displaying each move along with the source and destination pegs. Upon completion, the program exits gracefully.
 
 - <b>[HTML and CSS](https://github.com/MustansirVerdawala/FrontEnd)</b>
   - [Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/Basic.htm)
