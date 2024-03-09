@@ -12,10 +12,10 @@
     - This C program provides a solution to the Tower of Hanoi problem, employing recursive techniques for efficient disk movement between pegs. Users can specify the number of disks and the source and destination pegs through command-line arguments. The program performs basic input validation to ensure the correctness of input parameters. It outputs the sequence of moves required to solve the Tower of Hanoi problem, displaying each move along with the source and destination pegs. Upon completion, the program exits gracefully.
 
 - <b>[HTML and CSS](https://github.com/MustansirVerdawala/FrontEnd)</b>
-  - [Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/Basic.htm)
+  - [Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/BasicWebsite)
     - The code defines a basic HTML5 webpage with a black background. It includes a styled header with a navigation menu, a sticky header, and multiple styled div elements with hover effects. The page has a simple and responsive design using cursive fonts and contrasting colors.
  
-  - [FIFA World Cup 2022](https://github.com/MustansirVerdawala/FrontEnd/blob/main/FifaWorldCup2022.htm)
+  - [FIFA World Cup 2022](https://github.com/MustansirVerdawala/FrontEnd/blob/main/FifaWorldCup2022)
     - The HTML code creates a webpage for the FIFA World Cup 2022. It includes a header, navigation bar, and main content sections styled with CSS. The content covers information about the host country, Qatar, and displays tournament groups, teams, and results in a table. Team logos spin on hover, revealing additional details.   
 
 - <b>[Java](https://github.com/MustansirVerdawala/Java)</b>
@@ -31,5 +31,5 @@
     - Creates a decimal digit counter simulating an Odometer.
     
 - <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
-  - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver.py)
+  - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver)
     - Algorithm to solve any scrambled configuration of a rubiks cube.
