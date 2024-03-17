@@ -19,8 +19,8 @@
     - The HTML code creates a webpage for the FIFA World Cup 2022. It includes a header, navigation bar, and main content sections styled with CSS. The content covers information about the host country, Qatar, and displays tournament groups, teams, and results in a table. Team logos spin on hover, revealing additional details.   
 
 - <b>[Java](https://github.com/MustansirVerdawala/Java)</b>
-  - [Bank Account](https://github.com/MustansirVerdawala/Java/tree/main/BankAccount)
-    - The code involves Java classes for bank accounts and a bank. The Account class requires implementing methods for deposit and withdrawal, while the Bank class manages multiple accounts, ensuring unique account numbers.
+  - [Bank Account](https://github.com/MustansirVerdawala/Java/blob/main/BankAccountApplication/)
+    - The code repository contains Java classes designed for bank account management. The Account class is responsible for functionalities such as deposit and withdrawal, ensuring proper balance management. On the other hand, the Bank class oversees multiple accounts, guaranteeing unique account numbers to maintain data integrity and security.
   - [BlackJack Game](https://github.com/MustansirVerdawala/Java/tree/main/BlackJack%20Game)
     - The code implements a Java Blackjack game with card and UI classes, utilizing ArrayLists.
   - [Virtual Circuit Builder](https://github.com/MustansirVerdawala/Java/tree/main/Circuit%20Builder)
