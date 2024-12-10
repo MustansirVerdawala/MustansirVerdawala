@@ -16,7 +16,10 @@
     - The code defines a basic HTML5 webpage with a black background. It includes a styled header with a navigation menu, a sticky header, and multiple styled div elements with hover effects. The page has a simple and responsive design using cursive fonts and contrasting colors.
  
   - [FIFA World Cup 2022](https://github.com/MustansirVerdawala/FrontEnd/blob/main/FifaWorldCup2022)
-    - The HTML code creates a webpage for the FIFA World Cup 2022. It includes a header, navigation bar, and main content sections styled with CSS. The content covers information about the host country, Qatar, and displays tournament groups, teams, and results in a table. Team logos spin on hover, revealing additional details.   
+    - The HTML code creates a webpage for the FIFA World Cup 2022. It includes a header, navigation bar, and main content sections styled with CSS. The content covers information about the host country, Qatar, and displays tournament groups, teams, and results in a table. Team logos spin on hover, revealing additional details.
+   
+  - [Kitchen Simulator](https://github.com/rackman404/Terrahacks-2024-Project)  
+    - The HTML code creates a webpage for a Kitchen Simulator. It includes a header, side navigation bar with draggable kitchen items, and a main content section styled with CSS. Users can drag and drop kitchen items such as a fridge, sink, cabinet, and stove onto a grid layout. Additional functionality includes managing food items within the fridge and cabinet, displaying and removing food items, and a modal for adding new food items.
 
 - <b>[Java](https://github.com/MustansirVerdawala/Java)</b>
   - [Bank Account Application](https://github.com/MustansirVerdawala/Java/blob/main/BankAccountApplication/)
@@ -33,3 +36,10 @@
 - <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
   - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver)
     - Algorithm to solve any scrambled configuration of a rubiks cube.
+   
+  - [Deep Reinforcement Learning Agent](https://github.com/MustansirVerdawala/Python/blob/main/DRL)
+    - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
+   
+- <b>[Assembly](https://github.com/MustansirVerdawala/Assembly)</b>
+ - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/EEBot Maze Navigation/main.asm)
+   - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
