@@ -41,5 +41,5 @@
     - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
    
 - <b>[Assembly](https://github.com/MustansirVerdawala/Assembly)</b>
- - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/Assembly/tree/main/EEBot%20Maze%20Navigation)
-   - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
+  - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/Assembly/tree/main/EEBot%20Maze%20Navigation)
+    - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
