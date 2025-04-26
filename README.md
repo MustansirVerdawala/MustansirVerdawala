@@ -46,4 +46,4 @@
    
 - <b>[Full-Stack](https://github.com/MustansirVerdawala/Full-Stack)</b>
   - [Online Recipe Forum](https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)
-   - Developed a full-stack web application that allows users to register, log in, and browse recipes.
+    - Developed a full-stack web application that allows users to register, log in, and browse recipes.
