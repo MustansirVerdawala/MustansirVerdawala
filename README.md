@@ -3,6 +3,36 @@
 ##
  ## Projects:
 
+- <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
+  - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver)
+    - Algorithm to solve any scrambled configuration of a rubiks cube.
+   
+  - [Deep Reinforcement Learning Agent](https://github.com/MustansirVerdawala/Python/blob/main/DRL)
+    - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
+
+  - [NEAT Race Track Navigator](https://github.com/MustansirVerdawala/Python/tree/main/NEAT_Race)
+    - Developed and trained a NEAT (NeuroEvolution of Augmenting Topologies) algorithm to optimize the navigation of a vehicle across a race track.
+
+- <b>[Full-Stack](https://github.com/MustansirVerdawala/Full-Stack)</b>
+  - [Online Recipe Forum](https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)
+    - Developed a full-stack web application that allows users to register, log in, and browse recipes.
+   
+- <b>[Assembly](https://github.com/MustansirVerdawala/Assembly)</b>
+  - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/Assembly/tree/main/EEBotMazeNavigation)
+    - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
+
+- <b>[Java](https://github.com/MustansirVerdawala/Java)</b>
+  - [Bank Account Application](https://github.com/MustansirVerdawala/Java/blob/main/BankAccountApplication/)
+    - The code repository contains Java classes designed for bank account management. The Account class is responsible for functionalities such as deposit and withdrawal, ensuring proper balance management. On the other hand, the Bank class oversees multiple accounts, guaranteeing unique account numbers to maintain data integrity and security.
+  - [BlackJack Game](https://github.com/MustansirVerdawala/Java/tree/main/BlackJack%20Game)
+    - The code implements a Java Blackjack game with card and UI classes, utilizing ArrayLists.
+  - [Virtual Circuit Builder](https://github.com/MustansirVerdawala/Java/tree/main/Circuit%20Builder)
+    - Reads command lines from user and accordingly performs the necessary operations to build a virtual circuit.
+  - [Flight Booking Manager](https://github.com/MustansirVerdawala/Java/tree/main/FlightBooking)
+    - Provides an interface to allow users to manage a Flight bookings.
+  - [Odometer](https://github.com/MustansirVerdawala/Java/tree/main/Odometer)
+    - Creates a decimal digit counter simulating an Odometer.
+
 - <b>[C](https://github.com/MustansirVerdawala/C)</b>
   - [Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation/)
     - The C program processes diabetes statistics from a CSV file, calculating and presenting averages, extremes, and status comparisons for provinces and national data. It also generates CSV files for date and age-wise data visualization.
@@ -20,33 +50,3 @@
    
   - [Kitchen Simulator](https://github.com/rackman404/Terrahacks-2024-Project)  
     - The HTML code creates a webpage for a Kitchen Simulator. It includes a header, side navigation bar with draggable kitchen items, and a main content section styled with CSS. Users can drag and drop kitchen items such as a fridge, sink, cabinet, and stove onto a grid layout. Additional functionality includes managing food items within the fridge and cabinet, displaying and removing food items, and a modal for adding new food items.
-
-- <b>[Java](https://github.com/MustansirVerdawala/Java)</b>
-  - [Bank Account Application](https://github.com/MustansirVerdawala/Java/blob/main/BankAccountApplication/)
-    - The code repository contains Java classes designed for bank account management. The Account class is responsible for functionalities such as deposit and withdrawal, ensuring proper balance management. On the other hand, the Bank class oversees multiple accounts, guaranteeing unique account numbers to maintain data integrity and security.
-  - [BlackJack Game](https://github.com/MustansirVerdawala/Java/tree/main/BlackJack%20Game)
-    - The code implements a Java Blackjack game with card and UI classes, utilizing ArrayLists.
-  - [Virtual Circuit Builder](https://github.com/MustansirVerdawala/Java/tree/main/Circuit%20Builder)
-    - Reads command lines from user and accordingly performs the necessary operations to build a virtual circuit.
-  - [Flight Booking Manager](https://github.com/MustansirVerdawala/Java/tree/main/FlightBooking)
-    - Provides an interface to allow users to manage a Flight bookings.
-  - [Odometer](https://github.com/MustansirVerdawala/Java/tree/main/Odometer)
-    - Creates a decimal digit counter simulating an Odometer.
-    
-- <b>[Python](https://github.com/MustansirVerdawala/Python)</b>
-  - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Python/blob/main/RubiksSolver)
-    - Algorithm to solve any scrambled configuration of a rubiks cube.
-   
-  - [Deep Reinforcement Learning Agent](https://github.com/MustansirVerdawala/Python/blob/main/DRL)
-    - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
-
-  - [NEAT Race Track Navigator](https://github.com/MustansirVerdawala/Python/tree/main/NEAT_Race)
-    - Developed and trained a NEAT (NeuroEvolution of Augmenting Topologies) algorithm to optimize the navigation of a vehicle across a race track.
-   
-- <b>[Assembly](https://github.com/MustansirVerdawala/Assembly)</b>
-  - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/Assembly/tree/main/EEBotMazeNavigation)
-    - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
-   
-- <b>[Full-Stack](https://github.com/MustansirVerdawala/Full-Stack)</b>
-  - [Online Recipe Forum](https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)
-    - Developed a full-stack web application that allows users to register, log in, and browse recipes.
