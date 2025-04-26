@@ -39,6 +39,9 @@
    
   - [Deep Reinforcement Learning Agent](https://github.com/MustansirVerdawala/Python/blob/main/DRL)
     - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
+
+  - [NEAT Race Track Navigator](https://github.com/MustansirVerdawala/Python/tree/main/NEAT_Race)
+    - Developed and trained a NEAT (NeuroEvolution of Augmenting Topologies) algorithm to optimize the navigation of a vehicle across a race track.
    
 - <b>[Assembly](https://github.com/MustansirVerdawala/Assembly)</b>
   - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/Assembly/tree/main/EEBotMazeNavigation)
