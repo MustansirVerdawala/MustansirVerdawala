@@ -43,3 +43,7 @@
 - <b>[Assembly](https://github.com/MustansirVerdawala/Assembly)</b>
   - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/Assembly/tree/main/EEBotMazeNavigation)
     - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
+   
+- <b>[Full-Stack](https://github.com/MustansirVerdawala/Full-Stack)</b>
+  - [Online Recipe Forum] (https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)
+   - Developed a full-stack web application that allows users to register, log in, and browse recipes.
