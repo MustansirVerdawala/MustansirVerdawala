@@ -41,6 +41,12 @@
   - [Towers of Hanoi](https://github.com/MustansirVerdawala/C/blob/main/TowersOfHanoi/)
     - This C program provides a solution to the Tower of Hanoi problem, employing recursive techniques for efficient disk movement between pegs. Users can specify the number of disks and the source and destination pegs through command-line arguments. The program performs basic input validation to ensure the correctness of input parameters. It outputs the sequence of moves required to solve the Tower of Hanoi problem, displaying each move along with the source and destination pegs. Upon completion, the program exits gracefully.
 
+- <b>[Bash](https://github.com/MustansirVerdawala/Bash)</b>
+  - [MacOS Live Dashboard](https://github.com/MustansirVerdawala/Bash/tree/main/DesktopDashboard)
+    - Developed a real-time system monitoring dashboard on macOS using Bash scripts, updating live every second.
+  - [MacOS Customized Terminal](https://github.com/MustansirVerdawala/Bash/tree/main/TerminalCustomization)
+    - Developed a custom terminal setup using tmux to manage multiple panes with automated script executions.
+
 - <b>[HTML and CSS](https://github.com/MustansirVerdawala/FrontEnd)</b>
   - [Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/BasicWebsite)
     - The code defines a basic HTML5 webpage with a black background. It includes a styled header with a navigation menu, a sticky header, and multiple styled div elements with hover effects. The page has a simple and responsive design using cursive fonts and contrasting colors.
