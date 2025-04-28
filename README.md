@@ -1,5 +1,5 @@
 ## Hello there, 
-**I'm Mustansir Verdawala, a 3rd year computer engineering student @ Toronto Metropolitan University**
+**I'm Mustansir Verdawala, welcome to my repo!!**
 ##
  ## Projects:
 
