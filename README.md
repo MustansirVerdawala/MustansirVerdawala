@@ -3,12 +3,22 @@
 ##
  ## Projects:
 
-- <b>[Machine Learning](https://github.com/MustansirVerdawala/Python)</b>
-  - [Deep Reinforcement Learning Agent](https://github.com/MustansirVerdawala/MachineLearning/blob/main/DRL)
-    - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
+### 🧠 Machine Learning
 
-  - [NEAT Race Track Navigator](https://github.com/MustansirVerdawala/MachineLearning/tree/main/NEAT_Race)
-    - Developed and trained a NEAT (NeuroEvolution of Augmenting Topologies) algorithm to optimize the navigation of a vehicle across a race track.
+- **[Deep Reinforcement Learning Agent](https://github.com/MustansirVerdawala/MachineLearning/blob/main/DRL)**
+  - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
+  - Integrated with Unity through a custom TCP socket connection for real-time gameplay interaction.
+  - **Domain:** Reinforcement Learning, Game AI  
+  - **Tech:** Python, TensorFlow, Unity, Sockets  
+  - **Skills:** Deep Q-Learning, Policy Optimization, Agent-Environment Integration, Git
+
+- **[NEAT Race Track Navigator](https://github.com/MustansirVerdawala/MachineLearning/tree/main/NEAT_Race)**
+  - Built a NeuroEvolution of Augmenting Topologies (NEAT) algorithm to train agents for optimal race track navigation.
+  - Used custom reward shaping and genetic mutation strategies to evolve neural network topologies across generations.
+  - **Domain:** Neuroevolution, Genetic Algorithms  
+  - **Tech:** Python, NEAT-Python  
+  - **Skills:** Evolutionary Algorithms, Neural Network Topology Optimization, Reward Engineering, Fitness Evaluation
+
 
 - <b>[Algorithms](https://github.com/MustansirVerdawala/Algorithms)</b>
   - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Algorithms/blob/main/RubiksSolver)
