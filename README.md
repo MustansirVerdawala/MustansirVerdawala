@@ -9,66 +9,141 @@
   - Developed a Deep Q-Learning agent using Python and TensorFlow, optimizing the agent's policy to dodge enemy bullets in a 2D game environment.
   - Integrated with Unity through a custom TCP socket connection for real-time gameplay interaction.
   - **Domain:** Reinforcement Learning, Game AI  
-  - **Tech:** Python, TensorFlow, Unity, Sockets  
+  - **Tech:** Python, TensorFlow, Unity, Sockets
   - **Skills:** Deep Q-Learning, Policy Optimization, Agent-Environment Integration, Git
 
 - **[NEAT Race Track Navigator](https://github.com/MustansirVerdawala/MachineLearning/tree/main/NEAT_Race)**
   - Built a NeuroEvolution of Augmenting Topologies (NEAT) algorithm to train agents for optimal race track navigation.
   - Used custom reward shaping and genetic mutation strategies to evolve neural network topologies across generations.
   - **Domain:** Neuroevolution, Genetic Algorithms  
-  - **Tech:** Python, NEAT-Python  
+  - **Tech:** Python, NEAT-Python
   - **Skills:** Evolutionary Algorithms, Neural Network Topology Optimization, Reward Engineering, Fitness Evaluation
 
 
-- <b>[Algorithms](https://github.com/MustansirVerdawala/Algorithms)</b>
-  - [Rubiks Cube Solver](https://github.com/MustansirVerdawala/Algorithms/blob/main/RubiksSolver)
-    - Algorithm to solve any scrambled configuration of a rubiks cube.
+### 📊 Data Analysis & Visualization
+
+- **[Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation/)**
+  - Developed a C program to process diabetes statistics from CSV files, calculating averages, extremes, and status comparisons for provinces and national data.
+  - Generated CSV outputs segmented by date and age groups to support detailed data visualization.
+  - **Domain:** Data Analysis, Public Health Analytics  
+  - **Tech:** C, CSV Processing, Data Visualization  
+  - **Skills:** Data Manipulation, Statistical Summarization, File I/O, Reporting
+
+
+### 🧮 Algorithms
+
+- **[Rubik’s Cube Solver](https://github.com/MustansirVerdawala/Algorithms/blob/main/RubiksSolver)**
+  - Designed an algorithm capable of solving any scrambled Rubik’s Cube configuration using a deterministic solving method.
+  - Focused on optimizing move sequences and reducing computational steps.
+  - **Domain:** Search Algorithms, Puzzle Solving  
+  - **Tech:** Python  
+  - **Skills:** Heuristic Search, State Space Exploration, Algorithm Design
+
+- **[Towers of Hanoi](https://github.com/MustansirVerdawala/Algorithms/blob/main/TowersOfHanoi/)**
+  - Implemented a recursive algorithm in C to solve the Tower of Hanoi puzzle with customizable disk count and peg selection.
+  - Performed input validation, move tracking, and graceful termination.
+  - **Domain:** Recursion, Classic Algorithms  
+  - **Tech:** C  
+  - **Skills:** Recursive Programming, Command-Line Interface, Input Validation, Algorithm Analysis
+
+### 🌐 Full-Stack
+
+- **[Online Recipe Forum](https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)**
+  - Developed a full-stack web application enabling users to register, log in, and browse recipe content.
+  - Implemented authentication, routing, and a responsive front-end interface.
+  - **Domain:** Web Development, User Interaction  
+  - **Tech:** HTML, CSS, Java, MySQL, Docker, Kubernetes, Google Cloud  
+  - **Skills:** CRUD Operations, REST APIs, Authentication, Microservice Architecture
+
+- **[Kitchen Simulator](https://github.com/rackman404/Terrahacks-2024-Project)**  
+  - Built an interactive kitchen layout simulator with drag-and-drop functionality for placing appliances like fridge, sink, and stove.
+  - Enabled real-time item management within appliances and included a modal interface for adding new food items.
+  - **Domain:** UI/UX, Front-End Interaction  
+  - **Tech:** JavaScript, React, HTML, CSS  
+  - **Skills:** State Management, DOM Manipulation, Grid Layouts, Modal Integration
    
-  - [Towers of Hanoi](https://github.com/MustansirVerdawala/Algorithms/blob/main/TowersOfHanoi/)
-    - This C program provides a solution to the Tower of Hanoi problem, employing recursive techniques for efficient disk movement between pegs. Users can specify the number of disks and the source and destination pegs through command-line arguments. The program performs basic input validation to ensure the correctness of input parameters. It outputs the sequence of moves required to solve the Tower of Hanoi problem, displaying each move along with the source and destination pegs. Upon completion, the program exits gracefully.
+### 🔌 Embedded Systems and Microcontrollers
 
+- **[EEBot Maze Navigation](https://github.com/MustansirVerdawala/EmbeddedSystems/tree/main/EEBotMazeNavigation)**
+  - Developed a path-finding algorithm for the EEBot using Assembly on the HCS12 microcontroller.
+  - Enabled autonomous navigation with real-time object detection and decision-making.
+  - **Domain:** Robotics, Microcontrollers  
+  - **Tech:** Assembly, HCS12  
+  - **Skills:** State Machines, Sensor Calibration, Autonomous Navigation
 
-- <b>[Full-Stack](https://github.com/MustansirVerdawala/Full-Stack)</b>
-  - [Online Recipe Forum](https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)
-    - Developed a full-stack web application that allows users to register, log in, and browse recipes.
-
-   - [Kitchen Simulator](https://github.com/rackman404/Terrahacks-2024-Project)  
-    - Users can drag and drop kitchen items such as a fridge, sink, cabinet, and stove onto a grid layout. Additional functionality includes managing food items within the fridge and cabinet, displaying and removing food items, and a modal for adding new food items.
+- **[State Machine Simulator](https://github.com/MustansirVerdawala/EmbeddedSystems/blob/main/StateMachine/)**
+  - Simulated a dynamic state machine in C, allowing state configuration, transitions, and garbage collection.
+  - Provided a CLI for managing states, validating transitions, and performing memory cleanup.
+  - **Domain:** Systems Programming, Embedded Simulation  
+  - **Tech:** C  
+  - **Skills:** Dynamic Memory Management, CLI Design, Garbage Collection, FSM Design
    
-  
-- <b>[Embedded Systems and Microcontrollers](https://github.com/MustansirVerdawala/EmbeddedSystems)</b>
-  - [EEBot Maze Navigation](https://github.com/MustansirVerdawala/EmbeddedSystems/tree/main/EEBotMazeNavigation)
-    - Developed a path-finding program for the EEBot using assembly language on the HCS12 microcontroller.
 
-  - [State Machine](https://github.com/MustansirVerdawala/EmbeddedSystems/blob/main/StateMachine/)
-    - This C program simulates a state machine with dynamic state management and garbage collection capabilities. Users can define state transitions, modify state configurations, and perform garbage collection to clean up unused states. The simulator provides a command-line interface for interaction and supports features like state transition verification, garbage collection, and state deletion. Additionally, it offers functionalities to view state transitions, perform data manipulation, and exit the program gracefully.
+### 💻 Software Development
 
-- <b>[Software Development](https://github.com/MustansirVerdawala/SoftDev)</b>
-  - [Bank Account Application](https://github.com/MustansirVerdawala/SoftDev/blob/main/BankAccountApplication/)
-    - The code repository contains Java classes designed for bank account management. The Account class is responsible for functionalities such as deposit and withdrawal, ensuring proper balance management. On the other hand, the Bank class oversees multiple accounts, guaranteeing unique account numbers to maintain data integrity and security.
-  - [BlackJack Game](https://github.com/MustansirVerdawala/SoftDev/tree/main/BlackJack%20Game)
-    - The code implements a Java Blackjack game with card and UI classes, utilizing ArrayLists.
-  - [Virtual Circuit Builder](https://github.com/MustansirVerdawala/SoftDev/tree/main/Circuit%20Builder)
-    - Reads command lines from user and accordingly performs the necessary operations to build a virtual circuit.
-  - [Flight Booking Manager](https://github.com/MustansirVerdawala/SoftDev/tree/main/FlightBooking)
-    - Provides an interface to allow users to manage a Flight bookings.
-  - [Odometer](https://github.com/MustansirVerdawala/SoftDev/tree/main/Odometer)
-    - Creates a decimal digit counter simulating an Odometer.
+- **[Bank Account Application](https://github.com/MustansirVerdawala/SoftDev/blob/main/BankAccountApplication/)**
+  - Java application managing user bank accounts, handling deposits, withdrawals, and account tracking.
+  - Ensures unique account numbers and maintains balance integrity across operations.
+  - **Domain:** Financial Systems  
+  - **Tech:** Java  
+  - **Skills:** OOP, Data Integrity, File I/O
 
-- <b>[C](https://github.com/MustansirVerdawala/C)</b>
-  - [Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/C/blob/main/DiabeticPopulationDataManipulation/)
-    - The C program processes diabetes statistics from a CSV file, calculating and presenting averages, extremes, and status comparisons for provinces and national data. It also generates CSV files for date and age-wise data visualization.
-  
-- <b>[Bash](https://github.com/MustansirVerdawala/Bash)</b>
-  - [MacOS Live Dashboard](https://github.com/MustansirVerdawala/Bash/tree/main/DesktopDashboard)
-    - Developed a real-time system monitoring dashboard on macOS using Bash scripts, updating live every second.
-  - [MacOS Customized Terminal](https://github.com/MustansirVerdawala/Bash/tree/main/TerminalCustomization)
-    - Developed a custom terminal setup using tmux to manage multiple panes with automated script executions.
+- **[BlackJack Game](https://github.com/MustansirVerdawala/SoftDev/tree/main/BlackJack%20Game)**
+  - Java implementation of the Blackjack card game using OOP and ArrayLists.
+  - Features user interaction, card dealing, and basic gameplay UI.
+  - **Domain:** Game Development  
+  - **Tech:** Java  
+  - **Skills:** Game Logic, UI Design, Collections
 
-- <b>[Front End Development](https://github.com/MustansirVerdawala/FrontEnd)</b>
-  
-  - [FIFA World Cup 2022](https://github.com/MustansirVerdawala/FrontEnd/blob/main/FifaWorldCup2022)
-    - The HTML code creates a webpage for the FIFA World Cup 2022. It includes a header, navigation bar, and main content sections styled with CSS. The content covers information about the host country, Qatar, and displays tournament groups, teams, and results in a table. Team logos spin on hover, revealing additional details.
-   
-  - [Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/BasicWebsite)
-    - The code defines a basic HTML5 webpage with a black background. It includes a styled header with a navigation menu, a sticky header, and multiple styled div elements with hover effects. The page has a simple and responsive design using cursive fonts and contrasting colors.
+- **[Virtual Circuit Builder](https://github.com/MustansirVerdawala/SoftDev/tree/main/Circuit%20Builder)**
+  - Parses user commands to simulate virtual circuit design and configuration.
+  - Performs circuit construction operations and logic handling.
+  - **Domain:** Simulation
+  - **Tech:** Java  
+  - **Skills:** Simulation
+
+- **[Flight Booking Manager](https://github.com/MustansirVerdawala/SoftDev/tree/main/FlightBooking)**
+  - Allows users to book, manage, and cancel flight reservations.
+  - Implements a basic interface for flight scheduling and seat management.
+  - **Domain:** Reservation Systems  
+  - **Tech:** Java  
+  - **Skills:** CRUD Operations, Scheduling, Data Management
+
+- **[Odometer](https://github.com/MustansirVerdawala/SoftDev/tree/main/Odometer)**
+  - Simulates a rolling odometer with incrementing decimal digits.
+  - Demonstrates digit carry logic and looped counting.
+  - **Domain:** Simulation, Utility Tools  
+  - **Tech:** Java  
+  - **Skills:** Logic Simulation, Looping Structures, UI Display
+
+
+### 🐚 Bash Scripting & Automation
+
+- **[MacOS Live Dashboard](https://github.com/MustansirVerdawala/Bash/tree/main/DesktopDashboard)**
+  - Created a real-time system monitoring dashboard for macOS using Bash scripts, with live updates every second.
+  - **Domain:** System Monitoring, Automation  
+  - **Tech:** Bash, macOS Terminal  
+  - **Skills:** Shell Scripting, Real-time Data Display, Automation, Process Management
+
+- **[MacOS Customized Terminal](https://github.com/MustansirVerdawala/Bash/tree/main/TerminalCustomization)**
+  - Developed a customized terminal environment using tmux to manage multiple panes and automate script execution.
+  - **Domain:** Terminal Customization, Workflow Optimization  
+  - **Tech:** Bash, tmux  
+  - **Skills:** Shell Scripting, Terminal Multiplexing, Automation, Productivity Enhancement
+
+
+### 🎨 Front End Development
+
+- **[FIFA World Cup 2022](https://github.com/MustansirVerdawala/FrontEnd/blob/main/FifaWorldCup2022)**
+  - Developed a responsive HTML webpage showcasing the FIFA World Cup 2022, featuring a header, navigation bar, and styled content sections using CSS.
+  - Included detailed tournament groups, teams, and results in a dynamic table with team logos that spin on hover to reveal additional info.
+  - **Domain:** Web Design, Interactive UI  
+  - **Tech:** HTML5, CSS3  
+  - **Skills:** Responsive Design, CSS Animations, UI/UX, Semantic HTML
+
+- **[Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/BasicWebsite)**
+  - Created a simple yet stylish HTML5 website with a black background, sticky navigation header, and multiple hover-effect div elements.
+  - Employed cursive fonts and contrasting colors for a clean, minimalistic, and responsive design.
+  - **Domain:** Web Development, UI Styling  
+  - **Tech:** HTML5, CSS3  
+  - **Skills:** Layout Design, CSS Styling, Responsive Web Design, Typography
