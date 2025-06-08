@@ -1,5 +1,5 @@
 ## Hello there, 
-**I'm Mustansir Verdawala, welcome to my repo!!**
+**I'm Mustansir Verdawala, welcome to my GitHub!!**
 ##
  ## Projects:
 
