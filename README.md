@@ -27,7 +27,7 @@
   - **Tech:** Python, XGBoost, SHAP, Scikit-Learn, HuggingFace Datasets  
   - **Skills:** Model Tuning, Data Preprocessing, Class Imbalance Handling, SHAP Explainability
 
-- **[KMeans Clustering Analysis](https://github.com/MustansirVerdawala/MachineLearning/tree/main/KMeansClassification)**  
+- **[KMeans Clustering Analysis](https://github.com/MustansirVerdawala/MachineLearning/tree/main/KMeansClustering)**  
   - Applied KMeans clustering on real-world data to identify underlying patterns and clusters.  
   - Performed thorough feature scaling and dimensionality reduction for improved clustering performance.  
   - Visualized clusters and evaluated performance with silhouette scores.  
