@@ -18,6 +18,30 @@
   - **Domain:** Neuroevolution, Genetic Algorithms  
   - **Tech:** Python, NEAT-Python
   - **Skills:** Evolutionary Algorithms, Neural Network Topology Optimization, Reward Engineering, Fitness Evaluation
+ 
+- **[Heart Failure Mortality Prediction](https://github.com/MustansirVerdawala/MachineLearning/tree/main/XGBoost_Classifier)**  
+  - Trained an XGBoost binary classifier on clinical data to predict mortality in heart failure patients, with a focus on recall.  
+  - Achieved 72% lower RMSE compared to baseline, with a test R² of 0.9237.  
+  - Included SHAP-based model explainability and robust preprocessing.  
+  - **Domain:** Medical ML, Predictive Modeling  
+  - **Tech:** Python, XGBoost, SHAP, Scikit-Learn, HuggingFace Datasets  
+  - **Skills:** Model Tuning, Data Preprocessing, Class Imbalance Handling, SHAP Explainability
+
+- **[KMeans Clustering Analysis](https://github.com/MustansirVerdawala/MachineLearning/tree/main/KMeansClassification)**  
+  - Applied KMeans clustering on real-world data to identify underlying patterns and clusters.  
+  - Performed thorough feature scaling and dimensionality reduction for improved clustering performance.  
+  - Visualized clusters and evaluated performance with silhouette scores.  
+  - **Domain:** Unsupervised Learning, Data Analysis  
+  - **Tech:** Python, Scikit-Learn, Matplotlib, Seaborn  
+  - **Skills:** Clustering, Feature Engineering, Data Visualization
+
+- **[XGBoost Regressor for Life Expectancy](https://github.com/MustansirVerdawala/MachineLearning/tree/main/XGBoost_Regressor)**  
+  - Developed an XGBoost regression model to predict life expectancy from country health data.  
+  - Achieved a test R² score of 0.9237, significantly outperforming a baseline model.  
+  - Utilized RobustScaler for preprocessing and SHAP for model interpretability.  
+  - **Domain:** Regression, Health Analytics  
+  - **Tech:** Python, XGBoost, SHAP, Scikit-Learn, Pandas  
+  - **Skills:** Regression Modeling, Data Cleaning, Model Interpretation
 
 
 ### 📊 Data Analysis & Visualization
