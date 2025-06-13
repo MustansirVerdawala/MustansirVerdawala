@@ -22,10 +22,10 @@
 - **[Heart Failure Mortality Prediction](https://github.com/MustansirVerdawala/MachineLearning/tree/main/XGBoost_Classifier)**  
   - Trained an XGBoost binary classifier on clinical data to predict mortality in heart failure patients, with a focus on recall.  
   - Achieved 72% lower RMSE compared to baseline, with a test R² of 0.9237.  
-  - Included SHAP-based model explainability and robust preprocessing.  
+  - Included robust preprocessing.  
   - **Domain:** Medical ML, Predictive Modeling  
-  - **Tech:** Python, XGBoost, SHAP, Scikit-Learn, HuggingFace Datasets  
-  - **Skills:** Model Tuning, Data Preprocessing, Class Imbalance Handling, SHAP Explainability
+  - **Tech:** Python, XGBoost, Scikit-Learn, HuggingFace Datasets  
+  - **Skills:** Model Tuning, Data Preprocessing, Class Imbalance Handling
 
 - **[KMeans Clustering Analysis](https://github.com/MustansirVerdawala/MachineLearning/tree/main/KMeansClustering)**  
   - Applied KMeans clustering on real-world data to identify underlying patterns and clusters.  
