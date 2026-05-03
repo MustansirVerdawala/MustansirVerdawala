@@ -158,14 +158,14 @@
 
 ### 🎨 Front End Development
 
-- **[FIFA World Cup 2022](https://github.com/MustansirVerdawala/FrontEnd/blob/main/FifaWorldCup2022)**
+- **[FIFA World Cup 2022](https://github.com/MustansirVerdawala/FifaWorldCup2022)**
   - Developed a responsive HTML webpage showcasing the FIFA World Cup 2022, featuring a header, navigation bar, and styled content sections using CSS.
   - Included detailed tournament groups, teams, and results in a dynamic table with team logos that spin on hover to reveal additional info.
   - **Domain:** Web Design, Interactive UI  
   - **Tech:** HTML5, CSS3  
   - **Skills:** Responsive Design, CSS Animations, UI/UX, Semantic HTML
 
-- **[Basic Website](https://github.com/MustansirVerdawala/FrontEnd/blob/main/BasicWebsite)**
+- **[Basic Website](https://github.com/MustansirVerdawala/BasicWebsite)**
   - Created a simple yet stylish HTML5 website with a black background, sticky navigation header, and multiple hover-effect div elements.
   - Employed cursive fonts and contrasting colors for a clean, minimalistic, and responsive design.
   - **Domain:** Web Development, UI Styling  
