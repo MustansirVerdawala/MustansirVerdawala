@@ -143,13 +143,13 @@
 
 ### 🐚 Bash Scripting & Automation
 
-- **[MacOS Live Dashboard](https://github.com/MustansirVerdawala/Bash/tree/main/DesktopDashboard)**
+- **[MacOS Live Dashboard](https://github.com/MustansirVerdawala/DesktopDashboard)**
   - Created a real-time system monitoring dashboard for macOS using Bash scripts, with live updates every second.
   - **Domain:** System Monitoring, Automation  
   - **Tech:** Bash, macOS Terminal  
   - **Skills:** Shell Scripting, Real-time Data Display, Automation, Process Management
 
-- **[MacOS Customized Terminal](https://github.com/MustansirVerdawala/Bash/tree/main/TerminalCustomization)**
+- **[MacOS Customized Terminal](https://github.com/MustansirVerdawala/TerminalCustomization)**
   - Developed a customized terminal environment using tmux to manage multiple panes and automate script execution.
   - **Domain:** Terminal Customization, Workflow Optimization  
   - **Tech:** Bash, tmux  
