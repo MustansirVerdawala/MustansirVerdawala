@@ -105,35 +105,35 @@
 
 ### 💻 Software Development
 
-- **[Bank Account Application](https://github.com/MustansirVerdawala/SoftDev/blob/main/BankAccountApplication/)**
+- **[Bank Account Application](https://github.com/MustansirVerdawala/BankApplication/)**
   - Java application managing user bank accounts, handling deposits, withdrawals, and account tracking.
   - Ensures unique account numbers and maintains balance integrity across operations.
   - **Domain:** Financial Systems  
   - **Tech:** Java  
   - **Skills:** OOP, Data Integrity, File I/O
 
-- **[BlackJack Game](https://github.com/MustansirVerdawala/SoftDev/tree/main/BlackJack%20Game)**
+- **[BlackJack Game](https://github.com/MustansirVerdawala/BlackJack)**
   - Java implementation of the Blackjack card game using OOP and ArrayLists.
   - Features user interaction, card dealing, and basic gameplay UI.
   - **Domain:** Game Development  
   - **Tech:** Java  
   - **Skills:** Game Logic, UI Design, Collections
 
-- **[Virtual Circuit Builder](https://github.com/MustansirVerdawala/SoftDev/tree/main/Circuit%20Builder)**
+- **[Virtual Circuit Builder](https://github.com/MustansirVerdawala/CircuitBuilder)**
   - Parses user commands to simulate virtual circuit design and configuration.
   - Performs circuit construction operations and logic handling.
   - **Domain:** Simulation
   - **Tech:** Java  
   - **Skills:** Simulation
 
-- **[Flight Booking Manager](https://github.com/MustansirVerdawala/SoftDev/tree/main/FlightBooking)**
+- **[Flight Booking Manager](https://github.com/MustansirVerdawala/FlightBooking)**
   - Allows users to book, manage, and cancel flight reservations.
   - Implements a basic interface for flight scheduling and seat management.
   - **Domain:** Reservation Systems  
   - **Tech:** Java  
   - **Skills:** CRUD Operations, Scheduling, Data Management
 
-- **[Odometer](https://github.com/MustansirVerdawala/SoftDev/tree/main/Odometer)**
+- **[Odometer](https://github.com/MustansirVerdawala/Odometer)**
   - Simulates a rolling odometer with incrementing decimal digits.
   - Demonstrates digit carry logic and looped counting.
   - **Domain:** Simulation, Utility Tools  
