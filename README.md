@@ -56,19 +56,13 @@
 
 ### 🧮 Algorithms
 
-- **[Rubik’s Cube Solver](https://github.com/MustansirVerdawala/Algorithms/blob/main/RubiksSolver)**
+- **[Rubik’s Cube Solver](https://github.com/MustansirVerdawala/RubiksSolver)**
   - Designed an algorithm capable of solving any scrambled Rubik’s Cube configuration using a deterministic solving method.
   - Focused on optimizing move sequences and reducing computational steps.
   - **Domain:** Search Algorithms, Puzzle Solving  
   - **Tech:** Python  
   - **Skills:** Heuristic Search, State Space Exploration, Algorithm Design
 
-- **[Towers of Hanoi](https://github.com/MustansirVerdawala/Algorithms/blob/main/TowersOfHanoi/)**
-  - Implemented a recursive algorithm in C to solve the Tower of Hanoi puzzle with customizable disk count and peg selection.
-  - Performed input validation, move tracking, and graceful termination.
-  - **Domain:** Recursion, Classic Algorithms  
-  - **Tech:** C  
-  - **Skills:** Recursive Programming, Command-Line Interface, Input Validation, Algorithm Analysis
 
 ### 🌐 Full-Stack
 
