@@ -72,7 +72,7 @@
 
 ### 🌐 Full-Stack
 
-- **[Online Recipe Forum](https://github.com/MustansirVerdawala/Full-Stack/tree/main/OnlineRecipeForum)**
+- **[Online Recipe Forum](https://github.com/MustansirVerdawala/OnlineRecipeForum)**
   - Developed a full-stack web application enabling users to register, log in, and browse recipe content.
   - Implemented authentication, routing, and a responsive front-end interface.
   - **Domain:** Web Development, User Interaction  
