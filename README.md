@@ -46,7 +46,7 @@
 
 ### 📊 Data Analysis & Visualization
 
-- **[Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/Data/blob/main/DiabeticPopulationDataManipulation/)**
+- **[Diabetic Population Data Manipulation](https://github.com/MustansirVerdawala/DiabeticPopulationDataManipulation)**
   - Developed a C program to process diabetes statistics from CSV files, calculating averages, extremes, and status comparisons for provinces and national data.
   - Generated CSV outputs segmented by date and age groups to support detailed data visualization.
   - **Domain:** Data Analysis, Public Health Analytics  
